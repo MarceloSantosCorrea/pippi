@@ -1,0 +1,70 @@
+// JavaScript Document
+$(function(){
+	$("#editar").click(function(){
+		//////CLIENTE FISICO
+		$("#nome").removeAttr('disabled');
+		$("#cpf").removeAttr('disabled');
+		$("#rg").removeAttr('disabled');
+		$("#orgao").removeAttr('disabled');
+		$("#uf").removeAttr('disabled');
+		$("#data_expedicao").removeAttr('disabled');
+		$("#endereco").removeAttr('disabled');
+		$("#num_endereco").removeAttr('disabled');
+		$("#bairro").removeAttr('disabled');
+		$("#compl_endereco").removeAttr('disabled');
+		$("#ref_endereco").removeAttr('disabled');
+		$("#cep").removeAttr('disabled');
+		$("#cidade").removeAttr('disabled');
+		$("#estado").removeAttr('disabled');
+		$("#fone_resid").removeAttr('disabled');
+		$("#fone_cel").removeAttr('disabled');
+		$("#email").removeAttr('disabled');
+		$("#aniversario").removeAttr('disabled');
+		$("#pai").removeAttr('disabled');
+		$("#mae").removeAttr('disabled');
+		/////////CLIENTE JURIDICO
+		$("#razao").removeAttr('disabled');
+		$("#cnpj").removeAttr('disabled');
+		$("#fantasia").removeAttr('disabled');
+		$("#insc_estadual").removeAttr('disabled');
+		$("#endereco_juridico").removeAttr('disabled');
+		$("#num_endereco_juridico").removeAttr('disabled');
+		$("#bairro_juridico").removeAttr('disabled');
+		$("#compl_endereco_juridico").removeAttr('disabled');
+		$("#ref_endereco_juridico").removeAttr('disabled');
+		$("#cep_juridico").removeAttr('disabled');
+		$("#cidade_juridico").removeAttr('disabled');
+		$("#estado_juridico").removeAttr('disabled');
+		$("#fone_resid_juridico").removeAttr('disabled');
+		$("#fone_cel_juridico").removeAttr('disabled');
+		$("#email_juridico").removeAttr('disabled');
+		$("#aniversario_juridico").removeAttr('disabled');
+		//USUARIO		
+		$("#usuario_nome").removeAttr('disabled');
+		$("#usuario_email").removeAttr('disabled');
+		$("#usuario_fone_resid").removeAttr('disabled');
+		$("#usuario_fone_cel").removeAttr('disabled');
+		$("#usuario_nivel").removeAttr('disabled');
+		$("#registro_tecnico").removeAttr('disabled');
+		$("#orgao_tecnico").removeAttr('disabled');
+		$("#uf_tecnico").removeAttr('disabled');
+		$("#fone_tecnico").removeAttr('disabled');
+		
+		
+		$(function(){
+		$("#tecnico").click(function(){
+			$("#dados_tecnico").show("slow");
+		});
+		$("#admin").click(function(){
+			$("#dados_tecnico").hide("slow");
+		});
+		$("#usuario").click(function(){
+			$("#dados_tecnico").hide("slow");
+		});
+		$("#-1").click(function(){
+			$("#dados_tecnico").hide("slow");
+		});
+	});
+
+	});
+});

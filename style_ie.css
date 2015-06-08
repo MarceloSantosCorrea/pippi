@@ -1,0 +1,327 @@
+#cadastro_clientes {
+    width: 750px;
+    margin: 0px;
+    padding: 0;
+    float: left;
+}
+
+#cadastro_clientes fieldset {
+    border: 0;
+    width: 470px;
+    float: left;
+}
+
+#cadastro_clientes legend {
+    font: 23px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #069;
+}
+
+#cadastro_clientes form {
+    width: 550px;
+    float: left;
+    margin: 10px 0 0 10px;
+}
+
+#cadastro_clientes label {
+    width: 460px;
+    float: left;
+    margin: 2px 0 0 10px;
+    padding: 10px 0;
+}
+
+#cadastro_clientes span {
+    width: 150px;
+    float: left;
+    font: 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #333333;
+    text-align: right;
+    padding-right: 15px;
+}
+
+#cadastro_clientes input {
+    width: 280px;
+    padding: 3px 2px;
+}
+
+#cadastro_clientes .label {
+    width: 100px;
+    height: 15px;
+    float: right;
+    padding: 0 0 10px;
+    margin: 5px 90px 20px 10px;
+}
+
+#cadastro_clientes .span {
+    float: left;
+    width: 40px;
+}
+
+#cadastro_clientes .input {
+    float: left;
+    margin: 5px;
+    display: inline;
+    width: 10px;
+}
+
+#cadastro_clientes .btn {
+    width: 100px;
+    border: 1px solid #069;
+    float: right;
+    margin: 10px 55px;
+    cursor: pointer;
+}
+
+#cadastro_clientes .btn:hover {
+    background: #999999;
+}
+
+#cadastro_clientes select {
+    width: 55px;
+    padding: 3px 2px;
+}
+
+#cadastro_clientes .aniversario {
+    width: 230px;
+    display: inline;
+}
+
+#cadastro_clientes .estado {
+}
+
+#radio1 {
+    display: block;
+    margin-top: 25px;
+}
+
+#radio2 {
+    display: block;
+    margin-top: 25px;
+}
+
+/*AGENDA*/
+#agenda {
+    width: 780px;
+    height: 470px;
+    margin: 0 0 0 3px;
+    border: 1px solid #333;
+}
+
+#sidebar {
+    width: 230px;
+    height: 455px;
+    float: left;
+}
+
+#calendario {
+    width: 230px;
+    height: 165px;
+}
+
+#calendario form {
+    width: 230px;
+    height: 45px;
+    margin: 0;
+    padding: 0;
+    float: none;
+}
+
+#calendario label {
+    margin: 10px;
+    padding: 0;
+}
+
+#calendario .input {
+    width: 150px;
+    display: inline;
+    background: #666;
+    border: 1px solid #000000;
+    padding: 4px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+#calendario .btn {
+    width: 26px;
+    height: 26px;
+    margin: 5px;
+    padding: 0;
+    float: none;
+    color: #FFF;
+    background: #666;
+    border: 1px solid #000000;
+    font-weight: bold;
+}
+
+#cadastro_evento {
+    width: 230px;
+    height: 230px;
+}
+
+#cadastro_evento form {
+    margin: 0;
+    padding: 0;
+    width: 230px;
+    height: 230px;
+    float: left;
+}
+
+#cadastro_evento fieldset {
+    width: 230px;
+}
+
+#cadastro_evento label {
+    width: 236px;
+    height: 40px;
+    margin: 0 6px;
+    display: block;
+}
+
+#cadastro_evento span {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    float: left;
+}
+
+#cadastro_evento h1 {
+    width: 200px;
+    height: 20px;
+    margin: 0 12px;
+    padding: 0;
+    background: #D5FFD5;
+    border: 1px solid #0F0;
+    float: left;
+    font: 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #069;
+    text-align: center;
+}
+
+#cadastro_evento input {
+    width: 210px;
+    background: #666;
+    border: 1px solid #000000;
+    color: #FFF;
+    margin: 0;
+    padding: 5px 0;
+    float: left;
+    font-weight: bold;
+}
+
+#cadastro_evento select {
+    width: 100px;
+    background: #666;
+    border: 1px solid #000000;
+    color: #FFF;
+    margin: 0;
+    padding-top: 2px;
+    height: 26px;
+    float: left;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+}
+
+#cadastro_evento .btn {
+    width: 70px;
+    padding: 4px 0;
+    background: #666;
+    border: 1px solid #000000;
+    font-weight: bold;
+    margin: 0 24px;
+    float: right;
+}
+
+#cadastro_evento fieldset {
+    margin: 0;
+    padding: 0;
+    height: 270px;
+}
+
+#cadastro_evento legend {
+    margin: 0 15px;
+    float: left;
+}
+
+#compromissos {
+    width: 520px;
+    height: 450px;
+    float: left;
+}
+
+#datas {
+    width: 520px;
+    height: 45px;
+}
+
+#barra_status {
+    background: #666;
+    width: 545px;
+    height: 22px;
+    border: 1px solid #000;
+    margin: 15px 0px 4px;
+    float: left;
+    color: #FFF;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+#barra_status span {
+    color: #fff;
+    float: right;
+    width: 500px;
+}
+
+#barra_status span strong {
+    float: left;
+}
+
+#barra_status a {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+#descricao_evento {
+    width: 547px;
+    height: 405px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#hora {
+    float: left;
+    width: 547px;
+    margin: 0;
+    padding: 0;
+}
+
+#hora span {
+    color: #999;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 80px;
+    font-size: 17px;
+}
+
+#evento {
+    width: 545px;
+    border-bottom: 1px dashed #666;
+    float: left;
+}
+
+#evento span {
+    width: 470px;
+    text-align: left;
+    padding: 0 7px;
+    float: left;
+    height: 25px;
+}
+
+#evento a {
+    color: #069;
+    float: right;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,273 @@
+/*RESET*/
+*{margin:0; padding:0;}
+body{background:url(images/fundo_bg.png) repeat-x #f4f4f4;}
+
+#box{width:1000px; margin:0 auto;}
+/*HEADER*/
+#header{width:1000px; height:110px; float:left;}
+#header_logo{margin:20px 0 0 55px;}
+#header_msg{}
+
+.ok{ font:18px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#666; border:1px solid :#0F0; background:#DDFFDD; float:left; margin:5px; text-align:center;}
+.no{ width:210px; font:18px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#666; border:1px solid #F00; background:#FFC1C1; float:left; margin:5px; text-align:center;}
+.error{ width:250px; font:18px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#666; border:1px solid #F00; background:#FFC1C1; float:left; margin:5px; text-align:center;}
+.error2{ width:700px; font:18px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#666; border:1px solid #F00; background:#FFC1C1; float:left; margin:5px; text-align:center;}
+
+/*CONTENT*/
+#content{width:1000px; float:left; border-left:1px solid #666666; border-right:1px solid #666666; box-shadow:0px 0px 10px #666666; -moz-box-shadow:0px 0px 10px #666666; -webkit-box-shadow:0px 0px 10px #666666;}
+
+/*LINHA*/
+#local{width:984px; font:14px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#666; font-variant:small-caps; float:left;
+       padding:5px 2px;}
+#local .caminho{float:left;}
+#local .welcome{float:right;}
+#local .welcome a{text-decoration:none; color:#999;}
+#local .welcome a:hover{text-decoration:underline;}
+
+#linha_um{width:1004px; border-bottom:1px solid #CCC; float:left;}
+#caminho{width:300px; float:left; font:8px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#333; font-variant:small-caps; margin:2px 10px;}
+#boas_vindas{width:500px; float:right; font:8px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#333; font-variant:small-caps; margin:2px 5px;}
+#boas_vindas a{font:16px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#333; font-variant:small-caps; margin:2px;}
+/*MENU*/
+#menu{width:195px; background:#fff; border:1px solid #CCC; margin:0 5px 0 0; float:left; padding:5px 0 0 5px;}
+#menu ul {list-style:none; margin:0 0 5px 0; padding:0; float:left;}
+#menu ul li {font:15px "Trebuchet MS", Arial, Helvetica, sans-serif; float:left;}
+#menu ul li a{text-decoration:none; color:#333; float:left; width:185px; border-bottom:1px solid #CCC; padding:3px 0 3px 5px;}
+#menu ul li a:hover{background:#E5E5E5;}
+#menu ul h1{font:20px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#069;}
+
+/*CONTEUDO*/
+#content{width:1000px; margin:0; padding:0;}
+
+#conteudo{width:790px; margin:0px; padding:0; float:left;  overflow:auto; height:475px; }
+#conteudo fieldset{border:0; width:460px; float:left;}
+#conteudo legend{font:23px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#069;}
+#conteudo form{width:550px;  float:left; margin:10px 0 0 10px; }
+#conteudo label{width:460px; display:block; float:left; margin:2px 0 0 10px; padding:10px 0;}
+#conteudo span{width:150px;  float:left; display:block; font:15px "Trebuchet MS", Arial, Helvetica,sans-serif; color:#333333; text-align:right; padding-right:15px;}
+#conteudo input{width:280px; padding:3px 2px;}
+#conteudo .label{width:100px; height:15px;  display:inline; float:right; padding:0 0 10px; margin:5px 90px 0 10px ; }
+#conteudo .span{ float:left; width:40px;}
+#conteudo .input{float:left; margin:5px; display:inline; width:10px;}
+#conteudo .btn{width:100px; border:1px solid #069; float:right; margin:10px 55px; cursor:pointer;}
+#conteudo .btn:hover{background:#999999;}
+#conteudo select{width:55px; padding:3px 2px;}
+#conteudo .aniversario{width:230px; display:inline;}
+
+#cadastro_clientes{width:750px; margin:0px; padding:0; float:left; }
+#cadastro_clientes fieldset{border:0; width:470px; float:left;}
+#cadastro_clientes legend{font:23px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#069;}
+#cadastro_clientes form{width:550px;  float:left; margin:10px 0 0 10px;  }
+#cadastro_clientes label{width:460px; display:block; float:left; margin:2px 0 0 10px; padding:10px 0; }
+#cadastro_clientes span{width:150px;  float:left; display:block; font:15px "Trebuchet MS", Arial, Helvetica,sans-serif; color:#333333; text-align:right; padding-right:15px;}
+#cadastro_clientes input{width:280px; padding:3px 2px;}
+#cadastro_clientes .label{width:100px; height:15px;  display:inline; float:right; padding:0 0 10px; margin:5px 90px 0 10px ; }
+#cadastro_clientes .span{ float:left; width:40px;}
+#cadastro_clientes .input{float:left; margin:5px; display:inline; width:10px;}
+#cadastro_clientes .btn{width:100px; border:1px solid #069; float:right; margin:10px 55px; cursor:pointer;}
+#cadastro_clientes .btn:hover{background:#999999;}
+#cadastro_clientes select{width:55px; padding:3px 2px;}
+#cadastro_clientes .aniversario{width:230px; display:inline;}
+
+#radio1{display:block;}
+
+/*CADASTRO OK*/
+#conteudo h1{font:20px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#069; margin:15px;}
+#conteudo a{font:18px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#333; margin:15px;}
+#conteudo a:hover{text-decoration:none;}
+#conteudo_interno{width:785px; height:475px; float:left; overflow:auto;}
+
+/*FOOTER*/
+#footer{height:90px; background:url(images/fundo_rodape.png) repeat-x; float:left; width:100%;}
+#footer p{width:500px; text-align:center; font:15px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#666; margin:15px  auto;}
+#footer a{text-decoration:none; color:#333;}
+
+#clear{clear:both}
+
+/*LISTAGEM DE CLIENTES*/
+#conteudo_interno .lista{width:755px; height:50px; float:left; margin:0 0 5px 0; }
+#conteudo_interno .lista form{width:600px; height:50px;  float:left; margin:0 0 5px 0; padding:0; background:none;  border:none;}
+#conteudo_interno .lista span{font-size:16px; float:left; background:none;  }
+#conteudo_interno .lista label{width:415px; margin:0 5px  5px 0; padding:0; float:left; background:none;} 
+#conteudo_interno .lista input{width:300px; float:left; height:21px; margin:0; padding:3px; display:inline; background:#FFFFFF;}
+#conteudo_interno .lista .btn{ width:100px;float:right; height:27px; margin:1px 0 0 3px; border:1px solid #069; cursor:pointer; background:none;}
+#conteudo_interno .lista .btn:hover{background:#999999;}
+
+#conteudo_interno .listagem_clientes{margin:0; font:14px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#333333;}
+#conteudo_interno .listagem_clientes a {font:15px "Trebuchet MS", Arial, Helvetica, sans-serif; text-decoration:none; color:#900; padding:1px 6px ; margin:0; float:left;}
+#conteudo_interno .listagem_clientes input{width:20px; float:left; margin:5px;}
+#conteudo_interno .listagem_clientes span{width:50px; margin:0; background:none;}
+#conteudo_interno .listagem_clientes label{width:100px; background:none;}
+#conteudo_interno .listagem_clientes .btn{width:100px; background:none;}
+
+#conteudo_interno .honorarios{margin:0; font:18px Tahoma, Geneva, sans-serif; color:#333;}
+#conteudo_interno .honorarios a {font:15px "Trebuchet MS", Arial, Helvetica, sans-serif; text-decoration:none; color:#900; padding:1px 6px ; margin:0; float:left;}
+#conteudo_interno .honorarios input{width:20px; float:left; margin:5px;}
+#conteudo_interno .honorarios span{width:50px; margin:0; background:none;}
+#conteudo_interno .honorarios label{width:100px; background:none;}
+#conteudo_interno .honorarios .btn{width:100px; background:none;}
+
+#conteudo_interno h3{font:15px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#333333; font-weight:normal;}
+
+#filtroRecibo{margin:0; padding:0; float:left; width:100%; height:40px;}
+#filtrarPor{margin:0; padding:0; float:left; width:300px; height:40px;}
+#filtrarPor form{margin:0; padding:0; float:left; width:300px; }
+#filtrarPor fieldset{margin:0; padding:0; float:left; width:280px; border:1px solid #666;}
+#filtrarPor legend{font:14px "Trebuchet MS", Arial, Helvetica, sans-serif; margin:0 10px; padding:0 5px;}
+#filtrarPor label{margin:0; padding:0; float:left; width:130px; }
+#filtrarPor span{margin:0; padding:0; float:left; width:80px;  text-align:left;}
+#filtrarPor input{margin:3px 0; padding:0; float:left; width:30px; }
+
+#locateCliente{margin:0; padding:0; float:left; width:470px; }
+#locateCliente form{margin:0; padding:0; float:left; width:470px;}
+#locateCliente label{margin:0; padding:0; float:left;}
+#locateCliente select{padding:5px; margin:10px 0 0 0; float:left; width:360px;}
+#locateCliente .btnLocate{width:100px; padding:2px; margin-top:10px; float:right;}
+
+#locateData{margin:0; padding:0; float:left; width:470px; }
+#locateData form{margin:0; padding:0; float:left; width:470px;}
+#locateData label{margin:0; padding:0; float:left;}
+#locateData input{padding:5px; margin:10px 0 0 0; float:left; width:150px;}
+#locateData .btnLocate{width:100px; padding:2px;}
+
+
+
+/*CADASTROS USUARIOS*/
+#visualizar_cadastro_usuario{float:left;}
+#visualizar_cadastro_usuario form{ width:500px; height:auto;}
+#visualizar_cadastro_usuario label{float:left; margin:0; padding:3px;}
+#visualizar_cadastro_usuario span{float:left; }
+#visualizar_cadastro_usuario input{margin:0;}
+#visualizar_cadastro_usuario select{width:150px;}
+#visualizar_cadastro_usuario .btn{display:inline; float:left; margin:5px; padding:4px}
+
+/*FID*/
+#fid{float:left; width:100%; height:99%;}
+#fid form{margin:0; padding:0; float:left; width:502px; height:99%;}
+#fid label{width:502px; float:left; margin:3px 0; padding:0; }
+#fid span{width:200px; float:left; margin:0; padding:0; font:16px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#666666; text-align:center;}
+#fid select{width:300px; float:left;}
+#fid input{ margin:0 1px 0 0; padding:3px; width:30px; width:291px; float:left; }
+#fid h1{font:14px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#333; float:left; margin:0 49px;; padding:0;}
+#fid .btn{float:right; margin:5px 0;}
+#fid legend{font-size:18px;}
+#fid textarea{width:297px;}
+
+#topo_bloco_quatro{width:392px; height:160px; float:right;}
+#topo_bloco_quatro_um{width:392px; height:55px; border:1px solid #000;}
+#topo_bloco_quatro_um form{width:380px; height:45px; margin:6px 8px;}
+#topo_bloco_quatro_um label{ padding: 0 15px;}
+#topo_bloco_quatro_um span{font:12px Tahoma, Geneva, sans-serif;}
+#topo_bloco_quatro_um .linha2{padding:3px; margin:7px 4px; font-weight:lighter;}
+
+
+#topo_bloco_quatro_dois{width:392px; height:36px; border:1px solid #000; margin-top:18px;}
+#topo_bloco_quatro_dois h1{font:12px Tahoma, Geneva, sans-serif; width:160px; margin:10px 0 0 13px; float:left;}
+#topo_bloco_quatro_dois form{width:392px;}
+#topo_bloco_quatro_dois label{display:inline; float:left; margin:8px 3px 0 5px; padding:0; }
+#topo_bloco_quatro_dois span{font:12px Tahoma, Geneva, sans-serif; font-weight:lighter;}
+
+#topo_bloco_quatro_tres{width:392px; height:34px; border:1px solid #000; margin-top:12px;}
+#topo_bloco_quatro_tres form{ height:34px;}
+#topo_bloco_quatro_tres label{margin:8px 5px; float:left;}
+#topo_bloco_quatro_tres span{font:12px Tahoma, Geneva, sans-serif; font-weight:lighter;}
+#topo_bloco_quatro_tres h1{float:left; font-size:25px; font-weight:lighter;}
+
+
+#clear{clear:both}
+
+#visualizar_cadastro{font:13px Tahoma, Geneva, sans-serif; font-weight:lighter; margin-top:15px; float:left;}
+#visualizar_cadastro label{width:465px; margin:0;}
+#visualizar_cadastro form{width:465px; height:auto;}
+#visualizar_cadastro input{width:270px; padding:2px; font:15px Tahoma, Geneva, sans-serif; font-weight:lighter; background:#FFF;}
+#visualizar_cadastro .btn{width:80px; height:25px; padding:0; margin:0 2px; background:none; text-align:center;}
+#visualizar_cadastro .btn:hover{background:#999999;}
+#visualizar_cadastro .btn2{width:100px; height:28px; padding:0; margin:0 0 0 65px; background:none; border:1px solid #069; text-align:center; cursor:pointer;}
+#visualizar_cadastro .btn2:hover{background:#999999;}
+#visualizar_cadastro select{ width:200px; padding:2px; font:16px Tahoma, Geneva, sans-serif; font-weight:lighter; background:#FFF;}
+
+#visualizar_cadastro .tecnico{float:left;}
+#visualizar_cadastro .tecnico input{float:left; width:15px; margin:3px 0;}
+
+
+
+
+/*ATRIBUIÇÂO*/
+#atribuicao .btn{width:150px;}
+#atribuicao a{color:#FF0000; font:16px "Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+/*AGENDA*/
+#agenda{width:780px; height:470px; margin:0 0 0 3px; border:1px solid #333;}
+#sidebar{width:230px; height:455px; float:left;}
+#calendario{width:230px; height:165px;} 
+#calendario form{width:230px; height:45px; margin:0; padding:0; float:none;}
+#calendario label{margin:10px; padding:0;}
+#calendario .input{width:150px; display:inline; background:#666; border:1px solid #000000; padding:4px; color:#FFF; font-weight:bold;}
+#calendario .btn{width:26px; height:26px; margin:5px; padding:0; float:none; color:#FFF;
+			     background:#666; border:1px solid #000000; font-weight:bold;}
+#cadastro_evento{width:230px; height:230px; }
+#cadastro_evento form{margin:0; padding:0; width:230px; height:230px; float:left;}
+#cadastro_evento fieldset{width:230px;}
+#cadastro_evento label{width:236px; height:40px; margin:0 6px; display:block;}
+
+#cadastro_evento span{ margin:0; padding:0; text-align:left; float:left;}
+#cadastro_evento h1{ width:200px; height:20px; margin:0 12px; padding:0; background:#D5FFD5; border:1px solid #0F0; float:left;
+                    font:15px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#069; text-align:center;}
+#cadastro_evento input{width:210px; background:#666; border:1px solid #000000; color:#FFF; margin:0; padding:5px 0; float:left; font-weight:bold;}
+#cadastro_evento select{width:100px; background:#666; border:1px solid #000000; color:#FFF; margin:0; padding-top:2px; height:26px; float:left; font-weight:bold; text-align:center; font-size:16px;}
+#cadastro_evento .btn{ width:70px; padding:4px 0; background:#666; border:1px solid #000000; font-weight:bold; margin:0 24px; float:right;}
+#cadastro_evento fieldset{ margin:0; padding:0; height:270px;}
+#cadastro_evento legend{margin:0 15px; float:left;}
+
+#compromissos{width:520px; height:450px; float:left;}
+#datas{width:520px; height:45px;}
+#barra_status{background:#666; width:545px; height:22px; border:1px solid #000; margin:15px 0px 4px; float:left; color:#FFF; font-weight:bold; padding-top:2px;}
+#barra_status span{color:#fff; float:right; width:500px;}
+#barra_status span strong{float:left;}
+#barra_status a{color:#fff; margin:0; padding:0; }
+
+#descricao_evento{width:547px; height:405px; float:left; margin:0; padding:0;}
+#hora{ float:left; width:547px; margin:0; padding:0;}
+#hora span{color:#999; margin:0; padding:0; float:left; width:80px; font-size:17px; }
+#evento {width:545px;  border-bottom:1px dashed #666; float:left; }
+#evento span{width:470px; text-align:left; padding:0 7px; float:left; height:25px;}
+#evento a{color:#069; float:right; margin:0; padding:0;}
+
+/*CONTROLE DE HONOPRARIOS*/
+#controle_honorario{width:780px; height:auto; float:left; margin:0 0 5px 0;  }
+#controle_honorario form{width:780px; height:auto;  float:left; margin:0 0 5px 0; padding:0;}
+#controle_honorario span{font-size:16px; width:180px; float:left;   }
+#controle_honorario label{width:650px; margin:20px 5px  5px 20px; display:block; padding:0; float:left;} 
+#controle_honorario input{width:430px; float:left; height:21px; margin:0; padding:3px; display:inline;}
+#controle_honorario .btn{ width:170px;float:right; height:27px; margin:1px 170px; border:1px solid #069; cursor:pointer;}
+#controle_honorario .btn:hover{background:#999999;}
+#controle_honorario h1{font:20px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#069; margin:15px; margin:15px;}
+#controle_honorario select{width:400px;}
+#controle_honorario .salvarBtn{width:60px; height:30px;}
+#controle_honorario a {margin:5px 5px; float:left; font-size:15px;}
+#nova_data{float:left; margin:0; padding:0;}
+
+/*CADASTRO TAREFAS*/
+#cadastro_tarefas span{width:200px;}
+#cadastro_tarefas .ex_data{width:100px; float:right; margin-right:100px; text-align:left;}
+#cadastro_tarefas label{width:550px;}
+#cadastro_tarefas .data{width:100px;}
+
+/*HISTORICO*/
+#historico{width:100%; height:100%; }
+#historico form{width:95%; height:100px; float:left;}
+#historico .btn{width:60px; float:right; text-align:center; margin:60px 40px; padding:3px;}
+#historico textarea{font:13px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#666666;}
+#texto_historico{ width:780px; height:320px; float:left; margin:0 0 0 3px; padding:0; border:1px solid #333; overflow:auto;}
+#texto_historico h1{font:15px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight:bold; margin:2px 0 0 4px; padding:0;}
+#texto_historico p{font:13px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#666666; margin:0 0 3px 5px; width:748px; text-align:justify; border-top:1px dashed #333333;}
+
+#cnae {width:100%; height:100%;}
+#cnae form{width:570px;}
+#cnae input{color:#666; width:150px;}
+#cnae .btn{float:left; margin:11px 0 0 0;}
+#cnae label{width:360px;}
+#cnae a{font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;}
+#cnae ul{ list-style:none; float:left;}
+#cnae ul li{margin:5px 0;}
+#cnae ul li p{font:15px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#333333; width:626px; float:right; margin-left:4px; text-align:justify;}

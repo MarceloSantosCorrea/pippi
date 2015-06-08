@@ -1,0 +1,101 @@
+/*reset*/
+*{margin:0; padding:0; font:16px Tahoma, Geneva, sans-serif; font-weight:lighter;}
+body{background:#999; width:953px; font:16px Tahoma, Geneva, sans-serif; font-weight:lighter;}
+#geral{width:953px; background:#FFF; float:left; font:16px Tahoma, Geneva, sans-serif; font-weight:lighter;}
+#box{width:847px;  margin:0 20px; font:16px Tahoma, Geneva, sans-serif; font-weight:lighter; float:left;}
+#topo{width:847px; height:230px; float:left; }
+tabela{float:left;}
+strong{font-weight:bold;}
+
+
+#topo_bloco_um{width:392px; height:80px; float:left;}
+#topo_bloco_um h1{margin-top:20px; float:left;}
+#topo_bloco_um img{margin-top:15px; float:left;}
+#topo_bloco_um p {font:16px Tahoma, Geneva, sans-serif; font-weight:bold; float:left; width:230px; margin:25px 0 0 18px;}
+
+#topo_bloco_dois{width:392px; height:80px; float:right;}
+#topo_bloco_dois p {font:16px Tahoma, Geneva, sans-serif; font-weight:bold; float:right; width:280px; margin:31px  0 0 90px; float:left;}
+#topo_bloco_dois span {border:1px solid #000; width:10px; padding:4px; font-size:10px; float:right; margin-top:25px; text-align:center;}
+
+#topo_bloco_tres{width:391px; height:159px; float:left; border:1px solid #000;}
+#topo_bloco_tres form{width:391px; height:159px; float:left;}
+#topo_bloco_tres label{width:170px; display:block; margin:5px 9px;}
+#topo_bloco_tres span{font:12px Tahoma, Geneva, sans-serif; font-weight:lighter;}
+#topo_bloco_tres .horizontal{display:inline; margin-right:20px; width:90px;}
+#topo_bloco_tres .baixo{display:inline; margin:10px 25px 0 18px }
+#topo_bloco_tres input{border:2px solid #333; background:none;}
+
+#topo_bloco_quatro{width:392px; height:160px; float:right;}
+#topo_bloco_quatro_um{width:392px; height:55px; border:1px solid #000;}
+#topo_bloco_quatro_um form{width:380px; height:45px; margin:6px 8px;}
+#topo_bloco_quatro_um label{ padding: 0 15px;}
+#topo_bloco_quatro_um span{font:12px Tahoma, Geneva, sans-serif;}
+#topo_bloco_quatro_um .linha2{padding:3px; margin:7px 4px; font-weight:lighter;}
+
+
+#topo_bloco_quatro_dois{width:392px; height:36px; border:1px solid #000; margin-top:18px;}
+#topo_bloco_quatro_dois h1{font:12px Tahoma, Geneva, sans-serif; width:160px; margin:10px 0 0 13px; float:left;}
+#topo_bloco_quatro_dois form{width:392px;}
+#topo_bloco_quatro_dois label{display:inline; float:left; margin:8px 3px 0 5px; padding:0; }
+#topo_bloco_quatro_dois span{font:12px Tahoma, Geneva, sans-serif; font-weight:lighter;}
+
+#topo_bloco_quatro_tres{width:392px; height:34px; border:1px solid #000; margin-top:12px;}
+#topo_bloco_quatro_tres form{ height:34px;}
+#topo_bloco_quatro_tres label{margin:8px 5px; float:left;}
+#topo_bloco_quatro_tres span{font:12px Tahoma, Geneva, sans-serif; font-weight:lighter;}
+#topo_bloco_quatro_tres h1{float:left; font-size:25px; font-weight:lighter;}
+
+#conteudo_um{width:847px; margin-top:15px; float:left;}
+#conteudo_um h1{font:16px Tahoma, Geneva, sans-serif; font-weight:bold; width:847px; border-bottom:1px solid #000;}
+.tabela{border-collapse: collapse; background: #FFFFF0; font:15px Tahoma, Geneva, sans-serif; float:left;}
+.tabela td {border: 1px solid black;} 
+
+
+#formulario_um{width:847px; height:200px; }
+#formulario_um select{width:500px; padding:0; height:27px; margin:0 0 0 45px; }
+#formulario_um .btn {margin:0 15px; padding:0; float:right;}
+#formulario_dois{width:847px; height:83px;}
+#formulario_dois p{width:650px; float:right; padding:2px 0;}
+
+#formulario_tres{width:847px; height:120px;}
+#formulario_quatro{width:847px; height:90px;}
+#formulario_cinco{width:847px; height:40px;}
+#formulario_seis{width:847px; height:88px;}
+#formulario_sete{width:847px; height:174px;}
+
+
+#conteudo_dois{width:847px; margin-top:15px; float:left;}
+#conteudo_dois .titulo{width:847px; border-bottom:1px solid #000; float:left;}
+#conteudo_dois .titulo input {float:left;}
+#conteudo_dois h1{font:16px Tahoma, Geneva, sans-serif; font-weight:bold; width:195px; float:left;}
+#conteudo_dois h2{font:16px Tahoma, Geneva, sans-serif; font-weight:bold; width:230px; float:left; margin:0 10px 0 200px;}
+#conteudo_dois h3{font:16px Tahoma, Geneva, sans-serif; font-weight:bold; width:150px; float:right;}
+
+#conteudo_tres{width:847px; margin-top:15px; float:left;}
+#conteudo_tres h1{font:16px Tahoma, Geneva, sans-serif; font-weight:bold; width:847px; border-bottom:1px solid #000;}
+
+#conteudo_quatro{width:847px; margin-top:15px; float:left;}
+#conteudo_quatro h1{font:16px Tahoma, Geneva, sans-serif; font-weight:bold; width:847px; border-bottom:1px solid #000;}
+
+#conteudo_cinco{width:847px; margin-top:15px; float:left;}
+#conteudo_cinco h1{font:16px Tahoma, Geneva, sans-serif; font-weight:bold; width:100px; float:left;}
+#conteudo_cinco .titulo{width:847px; float:left;}
+#conteudo_cinco h2{font:16px Tahoma, Geneva, sans-serif; font-weight:bold; width:350px; float:left; margin:0 10px 0 15px;}
+#conteudo_cinco span{border:1px solid #000; width:10px; padding:4px; font-size:10px; float:left; text-align:center;}
+
+#conteudo_seis{width:847px; margin-top:15px; float:left;}
+#conteudo_seis h1{font:16px Tahoma, Geneva, sans-serif; font-weight:bold; width:250px; float:left;}
+#conteudo_seis .titulo{width:847px; border-bottom:1px solid #000; float:left;}
+#conteudo_seis h2{font:16px Tahoma, Geneva, sans-serif; font-weight:bold; width:350px; float:left; margin:0 10px 0 15px;}
+#conteudo_seis span{border:1px solid #000; width:10px; padding:4px; font-size:10px; float:left; text-align:center;}
+
+#conteudo_sete{width:847px; margin:10px 0 100px 0; float:left;}
+#conteudo_sete h2{font:16px Tahoma, Geneva, sans-serif; font-weight:bold; width:350px; float:left; margin:5px 10px 45px 30px;}
+#conteudo_sete p{font:13px Tahoma, Geneva, sans-serif; margin:5px auto; width:150px; text-align:center;}
+#conteudo_sete .sub_titulo{font:15px Tahoma, Geneva, sans-serif; font-weight:bold; color:#999; float:right; margin:0 55px 0 0;}
+#conteudo_sete .sub_titulo2{font:15px Tahoma, Geneva, sans-serif; font-weight:bold; color:#999; float:right; margin:0 95px 0 0;}
+#conteudo_sete h4{float:left; width:345px; margin:5px 0 0 20px;}
+
+
+
+
